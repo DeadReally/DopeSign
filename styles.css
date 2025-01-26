@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+body {
+	margin: 0;
+    padding: 0;
+	overflow-x: hidden;
+
+}
+
+header {
+	display: flex;
+	background-color: #ffffff90;
+	backdrop-filter: blur(10px);
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+header .logo {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: 'dologo', sans-serif;
+	font-size: 30px;
+	color: black;
+	cursor: pointer;
+}
+
+.logo:hover {
+	color: #ffedc9;
+	text-shadow: 0 0 10px #fff5e0;
+	background-color: #000000d6;
+}
+
+header .buttons {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-family: 'dobutton', sans-serif;
+	font-size: 20px;
+	color: black;
+	height: 100%;
+}
+
+.glowna:hover, .produkty:hover, .kontakt:hover {
+  background-color: #ededed;
+  color: #223242;
+}
+
+header a {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background-color 0.5s ease, color 0.5s ease;
+	color: inherit;
+	text-align: center;
+	padding: 0 15px;
+}
+
+main {
+	background-color: white;
+	width: 100vw;
+	min-height: calc(100vh - 80px);
+	padding-top: 80px;
+}
+
+.hero {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 10px;
+	width: 100vw;
+	height: auto;
+	transition: height 0.3s ease; /* Płynne przejście wysokości */
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box; /* Uwzględnia padding w wysokości */
+}
+
+.heronapis { 
+	height: 60vh;
+	aspect-ratio: 5 / 4;	
+	background-color: white;
+	min-height: 500px;
+	text-align: center;
+	padding-top: 100px;
+		padding-left: 100px;
+	
+}
+
+.heropic {
+	height: 60vh;
+	aspect-ratio: 5 / 4;
+	border-radius: 20px;
+	min-height: 500px;
+	overflow: hidden;
+	justify-content: center;
+    align-items: center;
+	display: flex;
+}
+
+.heromotto {
+	font-family: 'domaina', sans-serif;
+	color: black;
+	padding-top: 40%; 
+	font-size: 80px;
+}
+
+.herooferta {
+	background-color: black;
+	font-family: 'dobutton', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+.herooferta:hover {
+  background-color: #223242;
+}
+
+.wybur {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 10px;
+	width: 100vw;
+	height: auto;
+	transition: height 0.3s ease; /* Płynne przejście wysokości */
+    background-color: white;
+    box-sizing: border-box; /* Uwzględnia padding w wysokości */	
+	padding: 0 5vh 0 5vh;
+}
+
+.napisior {
+	width: 100vw;
+	height: 200px;
+	text-align: center;
+	padding-top: 80px;
+	font-family: 'domaina', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+
+.wybur1{
+	width: 320px;
+	aspect-ratio: 4 / 5;	
+	background-color: white;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.wybur1 a {
+	font-family: 'dobutton', sans-serif;
+	font-size: 18px;
+	
+}
+
+.wybur1 img {
+	object-fit: cover;
+	height: 200px;
+	width: 230px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.inspiracje {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 10px;
+	width: 100vw;
+	height: auto;
+	transition: height 0.3s ease; /* Płynne przejście wysokości */
+    background-color: white;
+    box-sizing: border-box; /* Uwzględnia padding w wysokości */	
+	padding: 0 5vh 0 5vh;
+}
+
+.inspiracje a {
+	width: 100vw;
+	height: 200px;
+	text-align: center;
+	padding-top: 80px;
+	font-family: 'domaina', sans-serif;
+	font-size: 50px;
+	color: black;
+}
+
+.inspiracje img {
+	
+	width: 50vw;
+	aspect-ratio: 5 / 4;	
+	background-color: white;
+	text-align: center;
+
+}
+
+.inspiracje h1 {
+	width: 100vw;
+	height: 50px;
+	text-align: center;
+	padding-top: 0px;
+	font-family: 'domaina', sans-serif;
+	font-size: 80px;
+	color: #223242;
+	padding-top: 70px;
+}
+
+.dlaczego {
+	width: 100vw;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+}
+
+#dlaczegoo {
+	width: 100vw;
+	height: 50px;
+
+	padding-top: 0px;
+	font-family: 'domaina', sans-serif;
+	font-size: 50px;
+	color: black;
+	padding-top: 70px;
+}
+
+#wyszczegolnione {
+	width: 100vw;
+	height: 50px;
+
+	padding-top: 20pxpx;
+	font-family: 'domaina', sans-serif;
+	font-size: 25px;
+	color: black;
+	padding-top: 70px;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
+	background-color: #223242;
+	width: 100vw;
+	height: 200px;
+	font-family: 'dobutton', sans-serif;
+	font-size: 16px;
+	transition: height 0.3s ease; /* Płynne przejście wysokości */
+	box-sizing: border-box; /* Uwzględnia padding w wysokości */
+	color: white;
+	padding: 2vw 2vw 5vw 2vw;
+}
+
+footer .kategoria {
+	font-size: 20px;
+}
+
+@font-face {
+	font-family: 'dologo';
+	src: url('fonts/dologo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'domaina';
+	src: url('fonts/domaina.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'dobutton';
+	src: url('fonts/dobutton.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
